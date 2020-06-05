@@ -2,12 +2,38 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
     cout << "nique ta mere shadow" << endl << "car t'es un gros fdp" << endl;
-    cout << "je teste des choses" << " car je suis debutant";
+    cout << "je teste des choses" << " car je suis debutant" << endl; 
+
+
+    string phrase("bienvenue dans question pour un noob !");
+    bool estCeUneBonneIdee(true), vousEtesSur(true);
+    int depuisCombienDeTempsShadowEstCon(16);
+    // double marche pas?
+
+    cout << phrase << endl << "depuis combien de temps shadow est con ?" << endl << depuisCombienDeTempsShadowEstCon <<endl;
+
+    int ageUtilisateur(18); //Une variable pour contenir l'âge de l'utilisateur
+
+    int& maReference(ageUtilisateur); //Et une référence sur la variable 'ageUtilisateur'
+
+    //On peut utiliser à partir d'ici
+    //'ageUtilisateur' ou 'maReference' indistinctement
+    //Puisque ce sont deux étiquettes de la même case en mémoire
+
+    cout << "Vous avez " << ageUtilisateur << "  ans. (via variable)" << endl;
+    //On affiche, de la manière habituelle
+
+    cout << "Vous avez " << maReference << " ans. (via reference)" << endl;
+    //Et on affiche en utilisant la référence
+
+    //suite du cours diamnche...
+
 
     return 0; //termine la fonction main et termine le programme
 }
