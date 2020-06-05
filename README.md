@@ -1,0 +1,3 @@
+# Apprentissage-du-C-
+Premier programmme que j'ai fais pendant mon apprentissage de ce language de programmation
+c'est tout....
