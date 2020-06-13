@@ -73,7 +73,7 @@ int main()
         double const resultat = pow(a, b); // creer un nombre avec des puissances
 
 
-    //suite du cours dimanche...
+    //suite du cours dimanche... (j'espere)
 
 
 
